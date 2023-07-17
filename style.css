@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2? family= Ator & family= Inter:wght@200;300;400 & family= Lato:ital,wght@0,300;0,400;1,300 & family= Lily+Script+One & family= Monomaniac+One & family= Montserrat:ital,wght@0,300;0,400;1,400 & family= Roboto:ital,wght@0,300;1,300 & display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: none;
+    font-family: 'lato';
+    sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.banner {
+    height: 50vh;
+    background: url(assets/banner.png);
+}
+
+.primeiraSessaoMain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+footer {
+    display: flex;
+    box-shadow: 5px 35px rgb(133, 129, 129);
+    background-color: rgba(249, 249, 249, 1);
+    height: 25vh;
+    justify-content: space-around;
+    padding: 20px;
+    flex-direction: column;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+form {
+    font-size: 27px;
+    margin-top: 25px;
+    padding-left: 90px;
+}
+
+input {
+    margin-left: -6px;
+    font-size: 18px;
+}
+
+.botão {
+    border: solid rgb(29, 141, 57);
+    color: white;
+    background-color: rgb(29, 141, 57);
+}
+
+.segundaSessaoFooter {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.segundaSessaoFooter figure {
+    border: solid;
+}
+
+@media screen and(max-width:500px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        height: 20vh;
+    }
+}
