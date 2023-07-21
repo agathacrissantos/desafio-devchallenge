@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2? family= Ator & family= Inter:wght@200;300;400 & family= Lato:ital,wght@0,300;0,400;1,300 & family= Lily+Script+One & family= Monomaniac+One & family= Montserrat:ital,wght@0,300;0,400;1,400 & family= Roboto:ital,wght@0,300;1,300 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ator&family=Inter:wght@200;300;400&family=Lato:ital,wght@0,300;0,400;1,300&family=Lily+Script+One&family=Monomaniac+One&family=Montserrat:ital,wght@0,300;0,400;1,400&family=Roboto:ital,wght@0,300;1,300&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-transform: none;
-    font-family: 'lato';
-    sans-serif;
+    font-family: 'lato',sans-serif;
 }
 
 header {
@@ -29,12 +28,10 @@ header {
 }
 
 footer {
+    border: solid red;
     display: flex;
-    box-shadow: 5px 35px rgb(133, 129, 129);
-    background-color: rgba(249, 249, 249, 1);
-    height: 25vh;
+    height: 45vh;
     justify-content: space-around;
-    padding: 20px;
     flex-direction: column;
 }
 
@@ -49,29 +46,32 @@ form {
 }
 
 input {
-    margin-left: -6px;
+    margin-left: 6px;
     font-size: 18px;
 }
 
 .botão {
-    border: solid rgb(29, 141, 57);
+    border: solid #5CA720;
     color: white;
-    background-color: rgb(29, 141, 57);
+    background-color: #5CA720;
+}
+
+.primeiraSessaoFooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .segundaSessaoFooter {
     display: flex;
-    flex-wrap: wrap-reverse;
+    justify-content: space-around;
 }
 
-.segundaSessaoFooter figure {
-    border: solid;
+.segundaSessaoFooter nav {
+    display: flex;
+    gap: 25px;
 }
+
 
 @media screen and(max-width:500px) {
-    main {
-        flex-direction: column;
-        align-items: center;
-        height: 20vh;
-    }
 }
